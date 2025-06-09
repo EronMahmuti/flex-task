@@ -15,7 +15,6 @@ function JobInventory() {
     jobsiteCategories,
     loading,
     selectedCategoryId,
-    selectedCategoryName,
   } = useJobsiteCategoryData();
 
   const renderContent = () => {
@@ -36,7 +35,6 @@ function JobInventory() {
     if (selectedCategoryId && categoryItems.length > 0) {
       return (
         <div className="category-content">
-          <h2 className="category-title">{selectedCategoryName}</h2>
           <CategoryItemsTable
             data={categoryItems}
             categoryId={selectedCategoryId}
