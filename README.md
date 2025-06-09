@@ -166,28 +166,6 @@ npm run dev
 
 To serve the frontend from the backend:
 
-1. Build the frontend:
-
-```bash
-cd client
-npm run build
-```
-
-```
-
----
-
-## 🗃️ Scripts Overview
-
-### Backend (`server/`)
-
-- `npm run dev` – Run development server with nodemon
-
-### Frontend (`client/`)
-
-- `npm run dev` – Start Vite dev server
-
----
 
 ## 🧰 Tech Stack
 
